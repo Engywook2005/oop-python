@@ -1,5 +1,8 @@
-from app.Dog import Dog
+from app.Fish import Fish
+from app.Goldfish import Goldfish
 
-fido = Dog('fido', 'beagle')
+fish = Fish("Dr Fish")
+goldfish = Goldfish("Grizelda")
 
-fido.bark()
+fish.glub()
+goldfish.glub()
