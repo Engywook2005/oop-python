@@ -10,7 +10,7 @@ field = (11, 11)
 apple = Apple(field, None)
 snake = Snake(field, None)
 
-print(tuple(snake.positions))
+print(snake.positions)
 
 new_position = apple.spawn(occupied_positions).position
 occupied_positions.append(new_position)

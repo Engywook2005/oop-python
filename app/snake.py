@@ -32,4 +32,4 @@ class Snake:
 
             n += 1
 
-        return zip(tuple(x_values), tuple(y_values))        
+        return list(zip(tuple(x_values), tuple(y_values)))
