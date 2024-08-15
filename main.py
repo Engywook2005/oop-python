@@ -1,8 +1,11 @@
-from app.Fish import Fish
-from app.Goldfish import Goldfish
+from app.apple import Apple
 
-fish = Fish("Dr Fish")
-goldfish = Goldfish("Grizelda")
+occupied_positions = []
 
-fish.glub()
-goldfish.glub()
+field = (11, 11)
+
+apple = Apple((field), None)
+
+new_position = apple.spawn(occupied_positions).position
+
+print(new_position)
